@@ -1,0 +1,70 @@
+:root{
+    --dark: #091921;
+    --light: #d1dae3;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background: var(--dark);
+}
+
+body.light{
+    background: var(--light);
+}
+
+.toggle{
+    position: fixed;
+    top: 30px; right: 30px;
+    width: 2em; height: 2em;
+    border-radius: 50%;
+    font-size: 18px;
+    background: var(--light);
+    color: var(--light);
+    /* font-family: consolas; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+                inset 2px 2px 3px rgba(255, 255, 255, 0.25),
+                inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+body.light .toggle{
+    background: var(--dark);
+    color: var(--dark);
+}
+
+.toggle:hover{
+    box-shadow: none;
+}
+
+.sun{
+    width: 20px; height: 20px;
+    color: var(--dark);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.light .sun{
+    display: none;
+}
+
+body.light .moon{
+    width: 20px; height: 20px;
+    color: var(--light);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

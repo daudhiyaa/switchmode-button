@@ -1,10 +1,11 @@
-## switch-mode-button
+# Preview
+
 you can customize it by whatever, wherever, and whenever you want
 
-# Preview
 ### [See Live](https://daudhiyaa.github.io/switchmode-button/)
+
 - Dark Mode:
-<img src='dark.png' style='border-radius:10px'></img>
-<br><br>
+![dark](https://user-images.githubusercontent.com/90663569/200631146-a56caafa-db5e-4a28-ae8d-3a631eb831db.png)
+
 - Light Mode:
-<img src='light.png' style='border-radius:10px'></img>
+![light](https://user-images.githubusercontent.com/90663569/200631177-2b04979f-12d5-4620-a94d-edde76cf8968.png)
